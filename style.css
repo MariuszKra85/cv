@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin-left: 15px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  color: white;
+  font-size: 12px;
+}
+
+.left {
+  background-color: #223440;
+}
+
+.picWrapper {
+  width: 80%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.pic {
+  width: 100%;
+}
+
+.name {
+  text-align: center;
+  width: 100%;
+  background-color: #517d98;
+  padding: 20px 0;
+}
+
+.name h1 {
+  text-transform: uppercase;
+}
+
+.name p {
+  margin: 5px 0;
+  letter-spacing: 1.5px;
+}
+
+.data {
+  margin: 20px 0 20px 25px;
+}
+
+.data p {
+  margin: 5px 0;
+}
+
+.rights {
+  background-color: #2e4857;
+}
+
+.skills {
+  width: 100%;
+}
+
+.skills h3 {
+  background-color: #517d98;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.skills p {
+  margin: 10px 20px;
+}
+
+.skills p:first-letter {
+  text-transform: uppercase;
+}
+
+.rights {
+  padding: 30px;
+}
+
+.section h2 {
+  text-transform: uppercase;
+  background-color: #517d98;
+  padding: 15px 20px;
+  margin: 15px 0;
+}
+
+.year {
+  margin: 10px 0 5px;
+}
+
+.nameCourse {
+  font-weight: 700;
+  color: #6ea9ce;
+}
+
+.work {
+  margin-bottom: 20px;
+}
+
+.nameWork {
+  text-transform: uppercase;
+  color: #6ea9ce;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+
+.interest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.interestPic {
+  width: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */

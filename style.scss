@@ -1,0 +1,105 @@
+$leftBg: rgb(34, 52, 64);
+$rightBg: rgb(46, 72, 87);
+$titleBg: rgb(81, 125, 152);
+$secondColor: rgb(110, 169, 206);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin-left: 15px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  color: white;
+  font-size: 12px;
+}
+.left {
+  background-color: $leftBg;
+}
+.picWrapper {
+  width: 80%;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.pic {
+  width: 100%;
+}
+.name {
+  text-align: center;
+  width: 100%;
+  background-color: $titleBg;
+  padding: 20px 0;
+  h1 {
+    text-transform: uppercase;
+  }
+  p {
+    margin: 5px 0;
+    letter-spacing: 1.5px;
+  }
+}
+.data {
+  margin: 20px 0 20px 25px;
+  p {
+    margin: 5px 0;
+  }
+}
+.rights {
+  background-color: $rightBg;
+}
+.skills {
+  width: 100%;
+  h3 {
+    background-color: $titleBg;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 10px 20px;
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+}
+.rights {
+  padding: 30px;
+}
+.section {
+  h2 {
+    text-transform: uppercase;
+    background-color: $titleBg;
+    padding: 15px 20px;
+    margin: 15px 0;
+  }
+}
+
+.year {
+  margin: 10px 0 5px;
+}
+.nameCourse {
+  font-weight: 700;
+  color: $secondColor;
+}
+.work {
+  margin-bottom: 20px;
+}
+.nameWork {
+  text-transform: uppercase;
+  color: $secondColor;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+.interest {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-transform: uppercase;
+}
+.interestPic {
+  width: 50px;
+  height: 50px;
+}
